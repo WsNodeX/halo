@@ -1,0 +1,19 @@
+# build artifacts
+build/
+out/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# local secrets / data (never commit)
+*.pat
+*.token
+.env
